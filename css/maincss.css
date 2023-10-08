@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  font-size: .9rem;
+}
+.navbar-brand{
+  color: whitesmoke !important;
+  font-weight: 600;
+}
+.nav-link{
+  font-size: .8rem;
+  /* color: whitesmoke !important; */
+}
+.name-hover:hover{
+  color: rgb(154, 184, 243) !important;
+}
+a.nav-link:hover{
+  color: rgb(154, 184, 243) !important;
+}
+a.active{
+  color:  rgb(154, 184, 243) !important;
+}
+.navbar-toggler{
+    color: rgb(59, 139, 220);
+  background-color: rgb(154, 184, 243);;
+}
+section{
+  margin: 5rem 0rem;
+}
+.btn-download{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.move-to-right{
+  text-align: right;
+}
+.profile-img{
+  border-radius: 100%;
+  width:100%;
+ 
+}
+.information .wrapper{
+  margin: 0 1rem;
+}
+.information h2{
+  font-size: 4rem;
+  margin: 1.5rem 0 1rem 0;
+  font-weight: 700;
+}
+.information h3{
+  font-size: 2.5rem;
+  opacity: .8;
+}
+.information p{
+  line-height: .8;
+  font-size: 1.25rem;
+}
+.information p.info{
+  margin-top: 3rem;
+}
+.social-link{
+  font-size: 2.5rem;
+  color:  rgb(59, 139, 220);
+  margin: 0rem 1rem;  
+}
+/* #education .school,
+#education .timeline{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+#education .major{
+  font-style: italic;
+  font-weight: 400;
+}
+#education ul{
+  list-style: none;
+}
+ #education ul li p{
+  margin-top: 2rem;
+}*/
+#education p{
+  line-height: .5;
+  font-size: 1rem;
+} 
+.p-title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+#education .p-major{
+  font-weight: 100;
+  font-style: italic;
+  font-size: .9rem;
+}
+
+/* @media screen and (max-width: 800px) {
+  #education p{
+    line-height: .8;
+    font-size: 1rem;
+  } 
+
+
+
+} */
+footer hr{
+  border: .2rem solid black;
+  opacity: .7;
+}
+footer nav a.nav-link{
+  font-weight: 600;
+  font-size: 1rem ;
+  color: green;
+}
+footer nav a.nav-link:hover{
+  color: rgb(59, 139, 220) !important;
+}
+#carouselExampleControls{
+  padding-bottom: 3rem;
+}
